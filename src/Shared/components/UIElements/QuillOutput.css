@@ -1,0 +1,87 @@
+.topic-output-card-container {
+  width: 95%;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+}
+
+.topic-output-header {
+  display: flex;
+  align-items: center;
+}
+
+.topic-output-header-back-btn-container {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.topic-output-header-back-btn-container p {
+  font-weight: 600;
+  margin-left: -0.5rem;
+}
+
+.topic-output-header-back-btn-container:hover .topic-output-header-back-icon {
+  cursor: pointer;
+  color: #33a95b;
+  stroke: #33a95b;
+}
+
+.topic-output-header-back-btn-container:hover p {
+  cursor: pointer;
+  color: #33a95b;
+}
+
+.topic-output-topic-title {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: 600;
+}
+
+.topic-output-topic-description {
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1rem;
+  font-style: italic;
+  border-radius: 4px;
+}
+
+.topic-output-top-line {
+  border-top: 0.1rem solid #77777752;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.topic-output-bottom-line {
+  border-top: 0.1rem solid #77777752;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.topic-page-pdf svg {
+  width: 2.2rem;
+  fill: #33a95b;
+}
+
+.topic-page-pdf p {
+  font-size: 1.6rem;
+}
+
+/* Quill part */
+.readonly .pass-em {
+  display: inline-block;
+  /* border: 1px solid rgb(193, 230, 255); */
+  min-width: 50px;
+  text-align: center;
+}
+.readonly .ql-toolbar {
+  display: none;
+}
+.readonly .ql-container {
+  border: none !important;
+  cursor: default;
+}
+
+.react-quill-for-output {
+  /* padding-left: 5rem; */
+}

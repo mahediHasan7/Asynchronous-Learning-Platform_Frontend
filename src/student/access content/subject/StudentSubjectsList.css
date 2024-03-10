@@ -1,0 +1,90 @@
+.student-access-content-card {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+}
+
+.student-access-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0.8rem 0;
+}
+
+.student-access-content-header button {
+  padding: 0 2rem !important;
+  display: block;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 600;
+  font-size: 1.4rem !important;
+  border-radius: 6px;
+}
+
+.student-access-content-header button:hover,
+.student-access-content-header button:active {
+  background-color: #1a552e;
+}
+
+.student-access-content-header-title {
+  font-size: 1.8rem;
+  color: #33a95b;
+  font-weight: 700;
+  padding: 1.3rem 0;
+}
+
+.student-access-content-scroll-container {
+  overflow: auto;
+  /* height: 15rem; */
+}
+
+.student-access-content-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.student-access-content-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding: 1rem 0;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.student-access-content-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+/* .student-access-content-container td:nth-last-child(2),
+.student-access-content-container th:nth-last-child(2) {
+  width: 110%;
+} */
+
+.student-access-content-container td:last-child,
+.student-access-content-container th:last-child {
+  width: 13%;
+}
+
+.student-access-content-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+
+.student-access-content-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.student-access-content-btn {
+  color: #313537;
+  border-color: #313537;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.student-access-content-btn:hover {
+}

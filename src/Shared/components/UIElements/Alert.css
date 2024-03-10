@@ -1,0 +1,66 @@
+.alert-modal {
+  width: 40rem;
+}
+.alert-modal-content {
+  background-color: #ebebeb;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+
+  color: #333333;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  /* width: 40rem;
+  overflow-wrap: break-word; */
+  padding: 2rem 3rem;
+}
+
+.alert-modal-content p:last-child {
+  grid-column: 1/-1;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+
+.alert-modal--header {
+  padding: 1rem 2rem;
+  background: #f34343;
+  text-align: center;
+  border-bottom: 0.25px solid #4d4d4d;
+}
+
+.alert-modal--header h2 {
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.alert-modal--footer {
+  text-align: right;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.alert-modal--footer button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.alert-cancel-btn:hover {
+  background-color: #1a552e;
+  border-color: #1a552e;
+}
+
+.alert-confirm-btn {
+  margin-right: 0;
+  border-color: #f34343;
+  color: #f34343;
+}
+
+.alert-confirm-btn:hover {
+  background-color: #f34343;
+  border-color: #f34343;
+}

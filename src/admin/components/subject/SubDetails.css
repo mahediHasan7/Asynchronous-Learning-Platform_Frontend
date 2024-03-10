@@ -1,0 +1,33 @@
+.sub-details-container {
+  margin: 0 4.8rem;
+}
+
+.sub-details-name-code-grade-desc-container {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: 1fr;
+  font-size: 1.4rem;
+  padding: 1.6rem 2.4rem;
+}
+
+.sub-desc-top-elements {
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+
+.sub-details-line {
+  /* border: 1px solid red; */
+  grid-column: 1/-1;
+  border-top: 0.1rem solid #77777752;
+  margin-bottom: 1rem;
+}
+
+.sub-details-desc {
+  grid-column: 1/-1;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 1.5;
+}

@@ -1,0 +1,90 @@
+.topic-page-container {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin: 0.3rem auto 0 auto;
+  width: 95%;
+}
+
+.topic-page-top {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 0.8rem;
+  padding: 0 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.topic-page-top-line {
+  grid-column: 1/-1;
+  border-top: 0.1rem solid #77777752;
+  margin-bottom: 1rem;
+}
+
+.contents {
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+.contents p {
+  text-align: left;
+}
+
+.topic-images {
+  margin: 2rem 0;
+  width: 50%;
+  text-align: center;
+}
+
+.topic-page-bottom {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.topic-page-bottom a {
+  text-decoration: none;
+}
+
+.topic-page-pdf {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.topic-page-pdf p {
+  margin-top: 0.3rem;
+  color: #33a95b;
+}
+
+.topic-page-pdf:hover p {
+  cursor: pointer;
+  color: #1a552e;
+}
+
+.topic-page-pdf:hover svg {
+  cursor: pointer;
+  stroke: #1a552e;
+  fill: #1a552e;
+}
+
+.topic-page-pdf:hover {
+  cursor: pointer;
+}
+
+.topic-pg-status-container {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  overflow: hidden;
+  width: max-content;
+  margin: auto;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #33a95b;
+  background-color: white;
+  margin-top: 1rem;
+}

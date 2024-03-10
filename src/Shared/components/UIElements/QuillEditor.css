@@ -1,0 +1,18 @@
+/* REACT QUILL */
+
+.ql-container {
+  font-size: 1.4rem !important;
+}
+
+.ql-tooltip {
+  left: 0 !important;
+}
+
+.ql-container.ql-snow {
+  height: auto;
+}
+
+.react-quill-for-editor .ql-editor {
+  height: 60vh !important;
+  overflow: scroll !important;
+}

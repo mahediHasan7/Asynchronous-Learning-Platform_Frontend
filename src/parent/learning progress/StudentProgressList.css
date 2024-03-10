@@ -1,0 +1,91 @@
+.parent-st-learning-progress-card {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+}
+
+.parent-st-learning-progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0.8rem 0;
+}
+
+.parent-st-learning-progress-header-title {
+  font-size: 1.8rem;
+  color: #33a95b;
+  font-weight: 700;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.parent-st-learning-progress-header-title::first-letter {
+  text-transform: uppercase;
+}
+
+.parent-st-learning-progress-scroll-container {
+  overflow: auto;
+  /* height: 15rem; */
+}
+
+.parent-st-learning-progress-list-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.parent-st-learning-progress-list-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding: 1rem 0;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.parent-st-learning-progress-list-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.parent-st-learning-progress-list-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+.parent-st-details-card {
+  width: max-content;
+  margin: 1rem auto 0 auto;
+  display: flex;
+  gap: 1rem;
+  /* align-items: center; */
+}
+.parent-st-details-avatar-card {
+  background-color: #d6eede;
+  padding: 1.5rem;
+  border-radius: 6px;
+  width: 8rem;
+  height: 8rem;
+  font-size: 1.2rem;
+}
+
+.parent-st-learning-progress-student-info {
+  font-size: 1.4rem;
+  display: flex;
+  padding: 1rem;
+  background-color: #d6eede;
+  border-radius: 6px;
+  height: 8rem;
+}
+
+.parent-st-learning-progress-student-info p {
+  margin-bottom: 0.8rem;
+}
+.parent-st-learning-progress-student-info p:last-child {
+  margin-bottom: 0;
+}
+
+.parent-st-learning-progress-student-info-parts {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}

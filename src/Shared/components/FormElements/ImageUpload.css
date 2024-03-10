@@ -1,0 +1,33 @@
+.image-upload.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.image-upload button {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.image-upload button:hover,
+.image-upload button:active {
+  background-color: #1a552e;
+}
+
+.image-upload__preview {
+  width: 13rem;
+  height: 13rem;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-upload__preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

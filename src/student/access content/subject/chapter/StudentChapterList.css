@@ -1,0 +1,242 @@
+.student-chapter-list-page-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
+}
+
+.student-card-chapter-list {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+}
+
+.student-chapter-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0.8rem 0;
+}
+
+.student-chapter-list-header a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.student-student-chapter-list-header button {
+  padding: 0 2rem !important;
+  display: block;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 600;
+  font-size: 1.4rem !important;
+  border-radius: 6px;
+}
+
+.student-subjects-list-header button:hover,
+.student-subjects-list-header button:active {
+  background-color: #1a552e;
+}
+
+.student-chapter-header-title {
+  font-size: 1.8rem;
+  color: #33a95b;
+  font-weight: 700;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.student-chapter-list-scroll-container {
+  overflow: auto;
+  /* height: 15rem; */
+}
+
+.student-chapter-list-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.student-chapter-list-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding: 1rem 0;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.student-chapter-list-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.student-chapter-list-container td:nth-child(1),
+.student-chapter-list-container td:nth-child(1) {
+  width: 40%;
+}
+
+.student-chapter-list-container td:nth-last-child(5),
+.student-chapter-list-container td:nth-last-child(5) {
+  width: 10%;
+}
+.student-chapter-list-container td:nth-last-child(4),
+.student-chapter-list-container td:nth-last-child(4) {
+  width: 10%;
+}
+
+.student-chapter-list-container td:nth-last-child(3),
+.student-chapter-list-container td:nth-last-child(3) {
+  width: 10%;
+}
+
+.student-chapter-list-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+
+.student-chapter-list-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.student-chap-list-view-btn,
+.student-chap-list-edit-btn,
+.student-chap-list-delete-btn {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 1.3rem;
+  width: min-content;
+  color: #33a95b;
+  background-color: #b5b5b530;
+  padding: 0.1rem 0.6rem;
+  border-radius: 4px;
+}
+
+.student-chap-list-view-btn:hover,
+.student-chap-list-edit-btn:hover,
+.student-chap-list-delete-btn:hover {
+  border-bottom: 0.1px solid #1a552e;
+}
+
+.student-chap-list-view-btn .student-chap-list-view-icon {
+  stroke: #33a95b;
+}
+
+.student-chap-list-view-btn:hover,
+.student-chap-list-edit-btn:hover,
+.student-chap-list-delete-btn:hover {
+  cursor: pointer;
+}
+
+.student-chap-list-view-btn:hover .student-chap-list-view-icon,
+.student-chap-list-edit-btn:hover .student-chap-list-edit-icon,
+.student-chap-list-delete-btn:hover .student-chap-list-delete-icon {
+  stroke: #1a552e;
+  cursor: pointer;
+}
+
+.student-chap-list-view-btn:hover p,
+.student-chap-list-edit-btn:hover p,
+.student-chap-list-delete-btn:hover p {
+  cursor: pointer;
+  color: #1a552e;
+}
+
+.subject-item-more-menu-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+.student-student-subject-item-btns-container {
+  position: absolute;
+  right: 5rem;
+  bottom: -6.3rem;
+  background-color: #fff;
+  border-radius: 8px 8px 8px 8px;
+  width: 14rem;
+  height: 8rem;
+  overflow: auto;
+  box-shadow: 0px 8px 14px 2px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1.2rem;
+  padding-left: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.student-subjects-list-container
+  tr:last-child
+  .student-subject-list-td-more
+  .student-subject-item-btns-container,
+.student-subjects-list-container
+  tr:nth-last-child(2)
+  .student-subject-list-td-more
+  .student-subject-item-btns-container,
+.student-subjects-list-container
+  tr:nth-last-child(3)
+  .student-subject-list-td-more
+  .student-subject-item-btns-container {
+  right: 5rem;
+  bottom: 2rem;
+}
+
+.student-subject-item-edit-btn-container,
+.student-subject-item-delete-btn-container {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+  width: min-content;
+}
+
+.student-subject-item-delete-btn-container:hover,
+.student-subject-item-edit-btn-container:hover {
+  cursor: pointer;
+}
+
+.student-subject-item-delete-btn-container:hover .subject-item-delete-btn,
+.subject-item-edit-btn-container:hover .subject-item-edit-btn {
+  stroke: #33a95b;
+  cursor: pointer;
+}
+.student-subject-item-delete-btn-container:hover span,
+.student-subject-item-edit-btn-container:hover span {
+  color: #33a95b;
+  cursor: pointer;
+}
+
+.completed-green {
+  color: #33a95b;
+}
+
+/* CSS Transition animation */
+.more-menu-enter {
+  transform: translateY(-1rem);
+  opacity: 0;
+}
+
+.more-menu-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.more-menu-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.more-menu-exit-active {
+  transform: translateY(-1rem);
+  opacity: 0;
+  transition: all 150ms;
+}

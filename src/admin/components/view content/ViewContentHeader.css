@@ -1,0 +1,26 @@
+.view-content-header-container {
+  width: 95%;
+  margin: 0.3rem auto 0 auto;
+}
+.view-content-header-name-chapter-section-buttons-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.view-content-header-name-chapter-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 1rem;
+}
+
+.view-content-header-button-container button {
+  width: 12rem;
+  padding: 0.7rem 0;
+}
+
+.view-content-header-button-container button:hover {
+  background-color: #1a552e;
+}

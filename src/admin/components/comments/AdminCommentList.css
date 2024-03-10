@@ -1,0 +1,117 @@
+/* CommentPg.js */
+.comment-page-main-container {
+  width: 95%;
+  margin: 0.3rem auto 0 auto;
+}
+
+/* CommentList.js */
+.comment-page-card {
+}
+.comment-page-header {
+  border-bottom: 0.1rem solid #777777;
+}
+
+.comment-page-title {
+  font-size: 1.8rem;
+  color: #33a95b;
+  font-weight: 700;
+  padding: 0.6rem 0 1rem 0;
+}
+.comment-page-scroll-container {
+}
+
+.comment-list-table {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.comment-list-table td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 1rem 0;
+}
+
+.comment-list-table td:nth-child(1) {
+  width: auto;
+  padding-left: 1rem;
+}
+
+.comment-list-table td:nth-child(2) {
+  width: 65%;
+}
+
+.comment-list-table td:nth-child(3) {
+  width: auto;
+  padding-left: 1rem;
+  text-align: center;
+}
+
+.comment-list-table td:nth-child(4) {
+  width: auto;
+}
+
+/* CommentItem.js */
+.comment-page-user-info {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.comment-avatar {
+  width: min-content;
+}
+
+.comment-text {
+  position: relative;
+  background: #d6eede;
+  border-radius: 0.4em;
+  height: min-content;
+  padding: 1.5rem 2rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.comment-text:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 26px solid transparent;
+  border-right-color: #d6eede;
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -13px;
+  margin-left: -26px;
+}
+
+.comment-page-delete-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  color: #f34343;
+}
+
+.comment-page-delete-icon {
+  stroke: #f34343;
+}
+
+.comment-page-delete-btn:hover,
+.comment-page-delete-btn:hover {
+  cursor: pointer;
+}
+
+.comment-page-delete-btn:hover .comment-page-delete-icon,
+.comment-page-delete-btn:hover .comment-page-delete-icon {
+  stroke: #aa2f2f;
+  cursor: pointer;
+}
+.comment-page-delete-btn:hover p,
+.comment-page-delete-btn:hover p {
+  color: #aa2f2f;
+  cursor: pointer;
+}

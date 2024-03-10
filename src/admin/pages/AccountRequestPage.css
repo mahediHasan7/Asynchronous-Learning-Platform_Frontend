@@ -1,0 +1,60 @@
+.acc-req-page-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+.modal__acc-req {
+}
+
+.modal-header__acc-req {
+  height: 4.2rem;
+  background: #fff;
+  text-align: center;
+  color: #333333;
+  border-bottom: 0.25px solid #4d4d4d;
+}
+
+.approve {
+  background-color: #33a95b;
+}
+
+.decline {
+  background-color: #f34343;
+  color: white;
+}
+
+.modal-header__acc-req h2 {
+  font-weight: normal;
+  font-size: 1.6rem;
+  margin-top: 0.25rem;
+}
+
+.modal-footer__acc-req {
+  text-align: right;
+}
+
+.modal-footer__acc-req button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.decline-cancel:hover,
+.decline-cancel:active {
+  background-color: #1a552e;
+}
+
+.danger-inverse {
+  color: #f34343;
+  background: transparent;
+}
+
+.modal-table {
+  font-size: 1.4rem;
+  padding: 1.6rem 0 0 3.2rem;
+  line-height: 1.5;
+  color: #4d4d4d;
+}
+
+.modal-table td:first-child {
+  padding-right: 3.2rem;
+}

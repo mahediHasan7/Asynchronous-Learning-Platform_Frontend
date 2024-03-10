@@ -1,0 +1,51 @@
+.single-topic-output-card {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+}
+
+.single-topic-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0.8rem 0;
+  font-weight: 600;
+}
+
+.single-topic-back-btn-container {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.single-topic-back-btn-container p {
+  font-weight: 600;
+  margin-left: -0.5rem;
+}
+
+.single-topic-back-btn-container:hover .single-topic-back-icon {
+  cursor: pointer;
+  color: #33a95b;
+  stroke: #33a95b;
+}
+
+.single-topic-back-btn-container:hover p {
+  cursor: pointer;
+  color: #33a95b;
+}
+
+.single-topic-header-title {
+  font-size: 1.6rem;
+}
+
+.single-topic-fav-icon {
+  margin-right: 0.5rem;
+}
+
+.single-topic-fav-icon:hover {
+  cursor: pointer;
+}
+
+.selected-as-fav {
+  fill: #33a95b;
+  stroke: #33a95b;
+}

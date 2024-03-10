@@ -1,0 +1,77 @@
+.topic-content-card {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+  font-size: 1.4rem;
+}
+.topic-content-header {
+  display: flex;
+  align-items: center;
+}
+
+.topic-content-header-back-btn-container {
+  font-size: 1.6rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.topic-content-header-back-btn-container:hover .topic-content-header-back-icon {
+  cursor: pointer;
+  color: #f34343;
+  stroke: #f34343;
+}
+
+.topic-content-header-back-btn-container:hover p {
+  cursor: pointer;
+  color: #f34343;
+}
+
+.topic-content-header-text {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: 600;
+}
+
+.topic-content-header-back-btn-container p {
+  font-weight: 600;
+  margin-left: -0.5rem;
+}
+.topic-content-header-back-icon {
+}
+
+.topic-content-footer {
+  text-align: right;
+}
+
+.topic-content-header-discard-btn {
+}
+.topic-content-header-save-btn {
+}
+
+.topic-content {
+  padding: 1rem 0;
+}
+
+/* CSS TRANSITION */
+.EducatorAddTopicPg-enter {
+  transform: translateY(150rem);
+  opacity: 0;
+}
+
+.EducatorAddTopicPg-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  /* transition: all 600ms; */
+  transition: all 360ms ease-in;
+}
+
+.EducatorAddTopicPg-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.EducatorAddTopicPg-exit-active {
+  transform: translateY(150rem);
+  opacity: 0;
+  transition: all 200ms ease-out;
+}

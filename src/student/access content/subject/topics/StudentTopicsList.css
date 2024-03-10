@@ -1,0 +1,109 @@
+.student-topic-list-page-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
+}
+
+.student-card-topic-list {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+}
+
+.student-topic-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0.8rem 0;
+}
+
+.student-topic-list-header button {
+  padding: 0 2rem !important;
+  display: block;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 600;
+  font-size: 1.4rem !important;
+  border-radius: 6px;
+}
+
+.student-subjects-list-header button:hover,
+.student-subjects-list-header button:active {
+  background-color: #1a552e;
+}
+
+.student-topic-header-title {
+  color: #33a95b;
+  font-weight: 700;
+  font-size: 1.8rem;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.student-topic-header-chapter {
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding-right: 1.5rem;
+}
+
+.student-topic-list-scroll-container {
+  overflow: auto;
+  /* height: 15rem; */
+}
+
+.student-topic-list-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.student-topic-list-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding: 1rem 0;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.student-topic-list-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.student-topic-list-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+
+.student-topic-list-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.student-sec-list-edit-btn,
+.student-sec-list-delete-btn {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 1.3rem;
+  width: min-content;
+}
+
+.student-sec-list-edit-btn:hover,
+.student-sec-list-delete-btn:hover {
+  cursor: pointer;
+}
+
+.student-sec-list-edit-btn:hover .student-sec-list-edit-icon,
+.student-sec-list-delete-btn:hover .student-sec-list-delete-icon {
+  stroke: #33a95b;
+  cursor: pointer;
+}
+
+.student-sec-list-edit-btn:hover p,
+.student-sec-list-delete-btn:hover p {
+  cursor: pointer;
+  color: #33a95b;
+}

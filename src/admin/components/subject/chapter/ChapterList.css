@@ -1,0 +1,268 @@
+.chapter-list-page-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
+}
+
+.card-chapter-list {
+  margin: 0 4.8rem;
+}
+
+.chapter-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0.8rem 0;
+}
+
+.chapter-list-header a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.chapter-list-header button {
+  padding: 0 2rem !important;
+  display: block;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 600;
+  font-size: 1.4rem !important;
+  border-radius: 6px;
+}
+
+.subjects-list-header button:hover,
+.subjects-list-header button:active {
+  background-color: #1a552e;
+}
+
+.chapter-header-title {
+  font-size: 1.8rem;
+  color: #33a95b;
+  font-weight: 700;
+}
+
+.chapter-list-scroll-container {
+  overflow: auto;
+  /* height: 15rem; */
+}
+
+.chapter-list-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.chapter-list-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding: 1rem 0;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.chapter-list-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.chapter-list-container td:nth-child(4),
+.chapter-list-container th:nth-child(4),
+.chapter-list-container td:nth-child(5),
+.chapter-list-container th:nth-child(5),
+.chapter-list-container td:nth-child(6),
+.chapter-list-container th:nth-child(6) {
+  width: 9rem;
+}
+
+.chapter-list-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+
+.chapter-list-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chap-list-view-btn,
+.chap-list-edit-btn,
+.chap-list-delete-btn {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 1.3rem;
+  width: min-content;
+}
+
+.chap-list-view-btn:hover,
+.chap-list-edit-btn:hover,
+.chap-list-delete-btn:hover {
+  cursor: pointer;
+}
+
+.chap-list-view-btn:hover .chap-list-view-icon,
+.chap-list-edit-btn:hover .chap-list-edit-icon,
+.chap-list-delete-btn:hover .chap-list-delete-icon {
+  stroke: #33a95b;
+  cursor: pointer;
+}
+
+.chap-list-view-btn:hover p,
+.chap-list-edit-btn:hover p,
+.chap-list-delete-btn:hover p {
+  cursor: pointer;
+  color: #33a95b;
+}
+
+/* 
+.subject-item-modal {
+  right: 10rem;
+  padding: 0 4.8rem 0 1.2rem;
+  width: 16rem;
+  height: 10rem;
+}
+
+.subject-item-modal-header {
+  background: #fff;
+  padding: 1.2rem 0 0 0;
+}
+
+.subject-item-modal-footer {
+  padding: 0;
+} */
+
+.subject-item-more-menu-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+.subject-item-btns-container {
+  position: absolute;
+  right: 5rem;
+  bottom: -6.3rem;
+  background-color: #fff;
+  border-radius: 8px 8px 8px 8px;
+  width: 14rem;
+  height: 8rem;
+  overflow: auto;
+  box-shadow: 0px 8px 14px 2px rgba(0, 0, 0, 0.4);
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1.2rem;
+  padding-left: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.subjects-list-container
+  tr:last-child
+  .subject-list-td-more
+  .subject-item-btns-container,
+.subjects-list-container
+  tr:nth-last-child(2)
+  .subject-list-td-more
+  .subject-item-btns-container,
+.subjects-list-container
+  tr:nth-last-child(3)
+  .subject-list-td-more
+  .subject-item-btns-container {
+  right: 5rem;
+  bottom: 2rem;
+}
+
+.subject-item-edit-btn-container,
+.subject-item-delete-btn-container {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+  width: min-content;
+}
+
+.subject-item-delete-btn-container:hover,
+.subject-item-edit-btn-container:hover {
+  cursor: pointer;
+}
+
+.subject-item-delete-btn-container:hover .subject-item-delete-btn,
+.subject-item-edit-btn-container:hover .subject-item-edit-btn {
+  stroke: #33a95b;
+  cursor: pointer;
+}
+.subject-item-delete-btn-container:hover span,
+.subject-item-edit-btn-container:hover span {
+  color: #33a95b;
+  cursor: pointer;
+}
+
+/* CSS Transition animation */
+.more-menu-enter {
+  transform: translateY(-1rem);
+  opacity: 0;
+}
+
+.more-menu-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.more-menu-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.more-menu-exit-active {
+  transform: translateY(-1rem);
+  opacity: 0;
+  transition: all 150ms;
+}
+
+/* Add Subject Modal and contents */
+.subject-item-modal {
+  left: 25% !important;
+  width: 50%;
+}
+
+.subject-item-modal-header {
+  height: 4.2rem;
+  background: #fff;
+  text-align: center;
+  color: #333333;
+  border-bottom: 0.25px solid #4d4d4d;
+}
+
+.subject-item-modal-header h2 {
+  font-weight: normal;
+  font-size: 1.6rem;
+  margin-top: 0.25rem;
+}
+
+.subject-item-modal-footer {
+  text-align: right;
+}
+
+.subject-item-modal-footer button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.add-subject-container {
+  font-size: 1.4rem;
+  padding: 0 1.6rem;
+  line-height: 1.5;
+  color: #4d4d4d;
+}
+.add-subject-container input::placeholder,
+.add-subject-container textarea::placeholder {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,38 @@
+.educator-content-header-container {
+  /* margin: 1rem auto 0 auto; */
+}
+.educator-content-main-container {
+  margin: 1rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.educator-content-header-name-chapter-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 1rem;
+  justify-content: space-around;
+}
+
+.educator-content-header-button-container button {
+  width: 12rem;
+  padding: 0.7rem 0;
+  border: 2px solid #33a95b;
+  font-weight: 600;
+}
+
+.educator-content-header-button-container button:hover {
+  background-color: #33a95b;
+}
+
+.educator-content-description {
+  text-align: justify;
+  grid-column: 1/-1;
+  padding: 1.5rem 1rem 1rem 1rem;
+  line-height: 1.4;
+  font-weight: normal;
+  font-size: 1.2rem;
+}

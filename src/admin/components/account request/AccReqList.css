@@ -1,0 +1,112 @@
+.card-acc-req-list {
+  margin: 0 4.8rem 0 4.8rem;
+}
+
+.header-title {
+  margin: 0.8rem 0 1.6rem 0;
+  font-size: 1.8rem;
+  color: #33a95b;
+  font-weight: 600;
+}
+
+.scroll-container {
+  overflow: auto;
+  height: 20rem;
+}
+
+.request-list-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.request-list-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.request-list-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.2rem 0.2rem 0.2rem 0;
+}
+
+.request-list-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+
+.request-list-container td:nth-child(1),
+.request-list-container td:nth-child(2),
+.request-list-container th:nth-child(1),
+.request-list-container th:nth-child(2) {
+  padding-right: 1rem;
+}
+
+.request-list-container td:nth-child(5),
+.request-list-container th:nth-child(5) {
+  padding-right: 2rem;
+}
+
+.request-list-container td:nth-child(6),
+.request-list-container th:nth-child(6) {
+  text-transform: capitalize;
+}
+
+.status-approved {
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #33a95b;
+  width: 7rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+  color: white;
+}
+
+.status-declined {
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: #f34343;
+  width: 7rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+  color: white;
+}
+
+/* accept-button */
+.request-list-container td:nth-child(7) {
+  padding-right: 1rem;
+  width: 3rem;
+}
+
+/* decline-button */
+.request-list-container td:last-child {
+  padding-right: 2rem;
+  padding-left: 0;
+  width: 3rem;
+}
+
+.request-list-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon-size {
+  width: 24px;
+  height: 24px;
+}
+
+.accept-icon:hover {
+  stroke: #1a552e;
+  cursor: pointer;
+}
+
+.decline-icon:hover {
+  stroke: #aa2f2f;
+  cursor: pointer;
+}

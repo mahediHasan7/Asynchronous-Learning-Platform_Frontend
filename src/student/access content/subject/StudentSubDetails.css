@@ -1,0 +1,52 @@
+.student-sub-details-container {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+}
+
+.student-sub-details-name-code-grade-desc-container {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: 1fr;
+  font-size: 1.4rem;
+  padding: 1.6rem 2.4rem;
+}
+
+.adjust-padding {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: 1fr;
+  font-size: 1.4rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.student-sub-desc-top-elements {
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-sub-details-line {
+  /* border: 1px solid red; */
+  grid-column: 1/-1;
+  border-top: 0.1rem solid #77777752;
+  margin-bottom: 1rem;
+}
+
+.student-sub-details-desc {
+  grid-column: 1/-1;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.student-sub-details-btn-container button {
+  width: 12rem;
+  padding: 0.7rem 0;
+}
+
+.student-sub-details-btn-container button:hover {
+  background-color: #1a552e;
+}

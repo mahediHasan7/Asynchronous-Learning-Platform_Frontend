@@ -1,0 +1,115 @@
+.card-educator-topic-list {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+}
+
+.educator-topic-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0.8rem 0;
+}
+
+.educator-topic-list-header button {
+  padding: 0 2rem !important;
+  display: block;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.4rem !important;
+  border-radius: 6px;
+}
+
+.educator-topic-list-header button:hover,
+.educator-topic-list-header button:active {
+  background-color: #1a552e;
+}
+
+.educator-topic-list-header-title {
+  font-size: 1.8rem;
+  color: #33a95b;
+  font-weight: 700;
+  padding: 1.3rem 0;
+}
+
+.educator-topic-list-scroll-container {
+  overflow: auto;
+  /* height: 15rem; */
+}
+
+.educator-topic-list-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.educator-topic-list-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding: 1rem 0;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.educator-topic-list-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.8rem 0;
+}
+
+.educator-topic-list-container td:nth-last-child(2),
+.educator-topic-list-container th:nth-last-child(2) {
+  width: 12rem;
+}
+
+.educator-topic-list-container td:nth-last-child(1),
+.educator-topic-list-container th:nth-last-child(1) {
+  width: 6rem;
+}
+
+.educator-topic-list-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+
+.educator-topic-list-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.educator-topic-list-access-btn {
+  color: #313537;
+  border-color: #313537;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.educator-topic-list-delete-icon:hover {
+  cursor: pointer;
+  stroke: #aa2f2f;
+}
+
+/* CSS TRANSITION */
+.EducatorTopicPg-enter {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.EducatorTopicPg-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.EducatorTopicPg-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.EducatorTopicPg-exit-active {
+  transform: translateY(-20rem);
+  opacity: 0;
+  /* transition: all 1ms; */
+  transition: all 1ms linear;
+}

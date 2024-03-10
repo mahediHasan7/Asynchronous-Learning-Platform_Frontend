@@ -1,0 +1,77 @@
+.view-content-main-container {
+  margin: auto;
+  color: #333333;
+  width: 95%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 1rem;
+  background: white;
+}
+
+.view-content-main-header {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left: 7.2rem;
+  margin-bottom: 1rem;
+}
+
+.drop-down-title {
+  color: #3333339f;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+}
+
+.view-content-dropdown-header {
+  font-size: 1.2rem;
+  color: #33a95b;
+  font-weight: 600;
+  margin-right: 0.4rem;
+}
+
+/* Dorpdown styles */
+
+.dd-wrapper {
+  /* margin: 0 0 2rem 0; */
+  width: 80rem;
+}
+
+.dd-header {
+  border-radius: 6px !important;
+}
+
+.dd-header-title {
+  color: #333333 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}
+
+.dd-list {
+  border-bottom-left-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+.dd-list-item {
+  font-weight: 600 !important;
+  font-size: 1.2rem !important;
+  color: #333333 !important;
+}
+
+.dd-scroll-list .dd-list-item:hover {
+  background-color: #33a95b !important;
+}
+
+.overallStyle svg path {
+  fill: #33a95b !important;
+}
+
+.dd-list-search-bar {
+  outline: none !important;
+}
+.dd-list-search-bar::placeholder {
+  color: #4d4d4d !important;
+  font-size: 1.4rem !important;
+}

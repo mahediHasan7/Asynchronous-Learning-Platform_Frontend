@@ -1,0 +1,7 @@
+.edit-profile-card .sign-up-form-input-container {
+  gap: 0;
+}
+.save-changes-button:hover {
+  cursor: pointer;
+  background-color: #1a552e;
+}

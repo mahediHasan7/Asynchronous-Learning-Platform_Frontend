@@ -1,0 +1,136 @@
+.card-subjects-list {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+}
+
+.subjects-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0.8rem 0;
+}
+
+.subjects-list-header button {
+  padding: 0 2rem !important;
+  display: block;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 600;
+  font-size: 1.4rem !important;
+  border-radius: 6px;
+}
+
+.subjects-list-header button:hover,
+.subjects-list-header button:active {
+  background-color: #1a552e;
+}
+
+.subjects-list-header-title {
+  font-size: 1.8rem;
+  color: #33a95b;
+  font-weight: 700;
+  padding: 1.3rem 0;
+}
+
+.subjects-list-scroll-container {
+  overflow: auto;
+  /* height: 15rem; */
+}
+
+.subjects-list-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.subjects-list-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding: 1rem 0;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.subjects-list-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.subjects-list-container td:nth-child(7),
+.subjects-list-container th:nth-child(7) {
+  width: 9rem;
+}
+
+.subjects-list-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+
+.subjects-list-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.subject-item-syllabus-btn {
+  color: #313537;
+  border-color: #313537;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.subject-item-syllabus-btn:hover {
+}
+
+.subject-list-td-more {
+  position: relative;
+}
+
+.subject-item-more-icon {
+}
+
+.subject-item-more-icon:hover {
+  stroke: #33a95b;
+}
+
+/* Add Section Modal and contents */
+.section-item-modal {
+  left: 25% !important;
+  width: 50%;
+}
+
+.section-item-modal-header {
+  height: 4.2rem;
+  background: #fff;
+  text-align: center;
+  color: #333333;
+  border-bottom: 0.25px solid #4d4d4d;
+}
+
+.section-item-modal-header h2 {
+  font-weight: normal;
+  font-size: 1.6rem;
+  margin-top: 0.25rem;
+}
+
+.section-item-modal-footer {
+  text-align: right;
+}
+
+.section-item-modal-footer button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.add-section-container {
+  font-size: 1.4rem;
+  padding: 0 1.6rem;
+  line-height: 1.5;
+  color: #4d4d4d;
+}
+.add-section-container input::placeholder,
+.add-section-container textarea::placeholder {
+  font-size: 1.2rem;
+}

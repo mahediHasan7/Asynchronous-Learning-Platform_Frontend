@@ -1,0 +1,112 @@
+.section-list-page-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
+}
+
+.card-section-list {
+  margin: 0 4.8rem;
+}
+
+.section-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 0.8rem 0;
+}
+
+.section-list-header a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.section-list-header button {
+  padding: 0 2rem !important;
+  display: block;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 600;
+  font-size: 1.4rem !important;
+  border-radius: 6px;
+}
+
+.subjects-list-header button:hover,
+.subjects-list-header button:active {
+  background-color: #1a552e;
+}
+
+.section-header-title {
+  color: #33a95b;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.section-list-scroll-container {
+  overflow: auto;
+  /* height: 15rem; */
+}
+
+.section-list-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.section-list-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding: 1rem 0;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.section-list-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.section-list-container td:nth-last-child(-n + 2),
+.section-list-container th:nth-last-child(-n + 2),
+.section-list-container td:nth-last-child(-n + 1),
+.section-list-container th:nth-last-child(-n + 1) {
+  width: 9rem;
+}
+
+.section-list-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+
+.section-list-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sec-list-edit-btn,
+.sec-list-delete-btn {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-size: 1.3rem;
+  width: min-content;
+}
+
+.sec-list-edit-btn:hover,
+.sec-list-delete-btn:hover {
+  cursor: pointer;
+}
+
+.sec-list-edit-btn:hover .sec-list-edit-icon,
+.sec-list-delete-btn:hover .sec-list-delete-icon {
+  stroke: #33a95b;
+  cursor: pointer;
+}
+
+.sec-list-edit-btn:hover p,
+.sec-list-delete-btn:hover p {
+  cursor: pointer;
+  color: #33a95b;
+}

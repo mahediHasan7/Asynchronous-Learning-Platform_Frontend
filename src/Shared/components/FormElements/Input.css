@@ -1,0 +1,91 @@
+.form-control {
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  display: block;
+}
+
+.form-control label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  font: inherit;
+  border: 1px solid rgba(77, 77, 77, 0.3);
+  background: #f8f8f8;
+  padding: 0.15rem 0.25rem;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline: none;
+  background: #ebebeb;
+  border-color: #33a95b;
+}
+
+.form-control--invalid label,
+.form-control--invalid p {
+  color: #f34343;
+}
+
+.form-control--invalid input,
+.form-control--invalid textarea {
+  border-color: #f34343;
+  /* background: #ffd1d1; */
+  background: #feecec;
+}
+
+.form-control .dd-wrapper {
+  width: 100%;
+}
+
+.form-control .dd-wrapper .dd-header {
+  border: 1px solid rgba(77, 77, 77, 0.3);
+  border-radius: 1px !important;
+}
+
+.form-control .dd-wrapper .dd-header-title {
+  padding: 0.15rem 0.4rem;
+  height: auto;
+  color: #4d4d4d;
+  line-height: 2;
+}
+
+/* For radio button */
+
+.form-control-adjust-margin {
+  margin: 0 !important;
+}
+
+.form-control-for-radio {
+  display: grid;
+  grid-template-columns: auto 1fr 2fr;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.form-control-for-radio input {
+  /* width: 50%; */
+}
+
+.radio-input {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; */
+}
+
+.radio-label {
+  margin: 0 !important;
+  width: 100%;
+}
+
+.radio-label div {
+  margin: 0 !important;
+}

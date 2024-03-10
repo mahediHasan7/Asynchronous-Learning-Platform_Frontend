@@ -1,0 +1,58 @@
+.dash-card-new-content-list {
+}
+
+.dash-header-new-content-title {
+  color: inherit;
+  font-size: 1.8rem;
+  margin: 0.8rem 0 1.6rem 0;
+  color: #33a95b;
+  font-weight: 600;
+}
+
+.dash-new-content-scroll-container {
+  overflow: auto;
+  height: 22rem;
+}
+
+.dash-new-content-container {
+  font-size: 1.4rem;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.dash-new-content-container th {
+  text-align: left;
+  font-weight: normal;
+  background-color: #f9fbfc;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-top: 0.03rem solid #606060;
+  border-bottom: 0.03rem solid #606060;
+}
+
+.dash-new-content-container td {
+  border-bottom: 0.02rem solid #777777;
+  padding: 0.6rem 0 0.6rem 0;
+}
+
+.dash-new-content-container tr:hover {
+  background-color: #f9fbfc;
+  color: black;
+}
+
+.dash-new-content-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dash-new-content-btn-container {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.dash-new-content-btn-container button {
+  height: 2.8rem;
+  width: 7.6rem;
+  font-size: 1.2rem !important;
+}

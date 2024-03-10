@@ -1,0 +1,18 @@
+.dash-summary-container {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8rem 0;
+}
+
+.dash-summary-div {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.dash-summary-icon {
+}
+
+.dash-summary-icon:hover {
+}
